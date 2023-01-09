@@ -1,2 +1,0 @@
-# seges
-FCC Backend tasks
