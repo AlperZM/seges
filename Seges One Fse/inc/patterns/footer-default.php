@@ -3,7 +3,7 @@
  * Default footer
  */
 return array(
-	'title'      => __( 'Default footer', 'seges_portfolio_fse' ),
+	'title'      => __( 'Default footer', 'seges_one_fse' ),
 	'categories' => array( 'footer' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
 	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
@@ -13,8 +13,8 @@ return array(
 					<!-- wp:paragraph {"align":"right"} -->
 					<p class="has-text-align-right">' .
 					sprintf(
-						esc_html__( 'Proudly powered by Seges', 'seges_portfolio_fse' ),
-						'<a href="' . esc_url( __( 'https://seges.dev', 'seges_portfolio_fse' ) ) . '" rel="nofollow">Seges</a>'
+						esc_html__( 'Proudly powered by Seges', 'seges_one_fse' ),
+						'<a href="' . esc_url( __( 'https://seges.dev', 'seges_one_fse' ) ) . '" rel="nofollow">Seges</a>'
 					) . '</p>
 					<!-- /wp:paragraph --></div>
 					<!-- /wp:group --></div>
