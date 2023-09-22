@@ -3,7 +3,7 @@
  * Dark footer with title and citation
  */
 return array(
-	'title'      => __( 'Dark footer with title and citation', 'seges_portfolio_fse' ),
+	'title'      => __( 'Dark footer with title and citation', 'seges_one_fse' ),
 	'categories' => array( 'footer' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"top":"var(--wp--custom--spacing--small, 1.25rem)","bottom":"var(--wp--custom--spacing--small, 1.25rem)"}}},"backgroundColor":"foreground","textColor":"background","layout":{"inherit":true}} -->
@@ -13,8 +13,8 @@ return array(
 					<!-- wp:paragraph {"align":"right"} -->
 					<p class="has-text-align-right">' .
 					sprintf(
-						esc_html__( 'Proudly powered by Seges', 'seges_portfolio_fse' ),
-						'<a href="' . esc_url( __( 'https://seges.dev', 'seges_portfolio_fse' ) ) . '" rel="nofollow">Seges</a>'
+						esc_html__( 'Proudly powered by Seges', 'seges_one_fse' ),
+						'<a href="' . esc_url( __( 'https://seges.dev', 'seges_one_fse' ) ) . '" rel="nofollow">Seges</a>'
 					) . '</p>
 					<!-- /wp:paragraph --></div>
 					<!-- /wp:group --></div>
