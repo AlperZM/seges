@@ -36,7 +36,14 @@
 			]
 		},
 		"spacing": {
-			"units": []
+			 "units": [
+	                       "%",
+	                       "px",
+                                "em",
+	                        "rem",
+	                         "vh",
+	                         "vw"
+	                        ]
 		},
 		"layout": {
 			"contentSize": "700px",
@@ -106,18 +113,28 @@
 		},
 		"blocks": {}
 	},
-	"templateParts": [
-		{
-			"name": "header",
-			"title": "Header",
-			"area": "header"
-		},
-		{
-			"name": "footer",
-			"title": "Footer",
-			"area": "footer"
-		}
-	],
+       "templateParts": [
+	                {
+	                        "name": "header",
+	                        "title": "Header",
+	                        "area": "header"
+	                },
+	                {
+	                        "name": "header-large-dark",
+	                        "title": "Header (Dark, large)",
+	                        "area": "header"
+	                },
+	                {
+	                        "name": "header-small-dark",
+	                        "title": "Header (Dark, small)",
+	                        "area": "header"
+	                },
+	                {
+	                        "name": "footer",
+	                        "title": "Footer",
+	                        "area": "footer"
+	                }
+	        ]
 	"customTemplates": [
 		{
 			"name": "",
